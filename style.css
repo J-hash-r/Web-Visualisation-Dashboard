@@ -1,0 +1,141 @@
+/* 
+* Bootstrap Visualization Dashboard - CSS Style Sheet 
+*/
+
+/* Body */
+body {
+  background-image: url("https://c.wallhere.com/photos/45/7f/nature_landscape_winter_snow_ice_mountains_snowy_peak_Lofoten-430.jpg!d")
+  height: 850px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+<img itemprop="contentURL" width="1200" height="750" src=
+
+/* Navbar */
+.navbar {
+  max-height: 60px;
+}
+.navigation .navbar-brand {
+  color: burlywood;
+  margin-left: 50px;
+  padding: inherit;
+  font-weight: italic;
+  background-color: rgb(148, 108, 108);
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif, Arial, Helvetica, sans-serif;
+}
+.navbar {
+  background-color: rgb(202, 43, 43);
+  font-size: 25px; 
+}
+.active, .dropdown-menu .dropdown-item:active a:hover {
+  background-color: rgb(117, 114, 114) !important;
+}
+.dropdown-item {
+  color: #213159 !important;
+}
+.dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover {
+  background-color: #f04b4c !important;
+}
+
+.nav-link:hover {
+  background-color:#3a0c0c50 !important;
+ }
+
+.navbar-brand:hover {
+color: #f04b4c !important;
+}
+
+a {
+  color: #fffdfd;
+  font-size: 15px;
+}
+
+/* Images */
+img{
+  width:100% !important;
+  height:100% !important;
+}
+.active, .panel:hover {
+  border-color:#213159;
+  border-style: solid;
+  
+}
+.vizualization {
+  width:50% !important;
+  height:50% !important;
+}
+
+/* Title */
+.title {
+  color: #fdfafd;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif, Arial, Helvetica, sans-serif;
+  font-weight: italic;
+  padding-top: 100px;
+}
+
+/* Paragraph */
+p {
+color: rgb(248, 246, 246);
+font-family: Arial, Helvetica, sans-serif;
+font-size: 15px;
+}
+
+/* Box */
+.box {
+  margin-top: 100px;
+  margin-bottom: 60px;
+  padding: 10px 30px 10px;
+  color: #bb781f;
+  background-color: rgb(110, 59, 59);
+
+}
+/* Table */
+.table {
+  font-size: 20px;
+  border-top-color: rgb(138, 128, 128) !important;
+}
+
+/* Footer */
+footer {
+background-color: #444c61;
+border-top-style: solid;
+border-top-width: 5px;
+border-top-color: #474444;
+color: white;
+min-height: 60px;
+font-family: Arial, Georgia, 'Times New Roman', Times, serif, sans-serif;
+font-size: 15px;
+text-align: center;
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+padding-top: 15px;
+}
+
+/* Media Queries */
+@media(max-width: 992px) {
+  .navbar-expand-lg {
+  background-color: #0a0a0a !important;
+  }
+  .navbar {
+    max-height: none;
+    padding: inherit;
+  }
+  .navbar div {
+    margin: inherit;
+    background-color: rgb(240, 12, 12);
+  }
+  .navbar-brand {
+    padding: 10px !important;
+  }
+  button{
+    margin-right: 30px;
+  }
+  button:focus {
+    outline: 5px dotted;
+    outline: auto 5px;
+  }
+}
